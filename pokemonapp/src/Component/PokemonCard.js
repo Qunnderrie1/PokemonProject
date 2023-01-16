@@ -10,8 +10,7 @@ export const PokemonCard = ({id , img ,name , num , weakness , type}) => {
         <h3>{`${name}`}</h3>
         <p>{`Type: ${type}`}</p>
             <article>
-              <h4>Weakness</h4>
-                {weakness}
+              <p>Weakness: {weakness}</p>
             </article>
         </div>
     </div>
